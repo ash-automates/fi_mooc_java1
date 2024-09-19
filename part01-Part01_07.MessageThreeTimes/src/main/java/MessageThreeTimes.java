@@ -7,7 +7,11 @@ public class MessageThreeTimes {
         Scanner scanner = new Scanner(System.in);
 
         System.out.println("Write a message:");
-        // Write your program here
+        String msg = scanner.nextLine();
+        
+        System.out.println(msg);
+        System.out.println(msg);
+        System.out.println(msg);
 
     }
 }
