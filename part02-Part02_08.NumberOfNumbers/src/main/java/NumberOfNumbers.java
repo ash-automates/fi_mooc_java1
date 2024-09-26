@@ -18,14 +18,14 @@ public class NumberOfNumbers {
             if (number == 0) {
                 break;
             }
-
-            // The task is to increase the amount of ones
-            // if the user inputs a number one
+            
+            // The task is to increase the amount of values
+            // if the user inputs a number
             values = values + 1;
             
         }
 
-        // The task is to print out the total of ones
+        // The task is to print out the total of values
         System.out.println("Number of numbers: " + values);
     }
 }
