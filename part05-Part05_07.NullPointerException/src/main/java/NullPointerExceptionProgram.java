@@ -6,7 +6,8 @@ public class NullPointerExceptionProgram {
     public static void main(String[] args) {
         // Implement a program, or modify a program so, that it causes 
         // the NullPointerException -error
-
+        String erronous = null;
+        System.out.println(erronous.isEmpty());
         ArrayList<String> lines = new ArrayList<>();
         lines.add("Never has a man influenced physics so profoundly as Niels Bohr in the early 1900's");
         lines.add("Going back to this time period, little was known about atomic structure; Bohr set out");
